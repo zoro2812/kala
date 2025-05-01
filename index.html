@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Kalanithiselvan! 🎉</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="balloon"></div>
+            <div class="balloon"></div>
+            <div class="balloon"></div>
+            <div class="cake"></div>
+        </div>
+    </div>
+
+    <!-- Audio Player -->
+    <div class="audio-player">
+        <button id="playPauseBtn" class="music-btn">
+            <i class="fas fa-music"></i>
+        </button>
+        <audio id="birthdayMusic" loop>
+            <source src="assets/gopgopgop.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="glow">Happy Birthday Karthikeyan!</h1>
+            <div class="floating-elements">
+                <div class="balloon"></div>
+                <div class="balloon"></div>
+                <div class="balloon"></div>
+                <div class="sparkle"></div>
+                <div class="sparkle"></div>
+                <div class="sparkle"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Personal Message Section -->
+    <section class="message-section">
+        <div class="container">
+            <div class="message-card">
+                <h2>Wishing you all the success, happiness, and cake in the world! 🎂</h2>
+                <p>May your special day be filled with joy, laughter, and wonderful memories. Here's to another amazing year ahead!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery -->
+    <section class="gallery-section">
+        <div class="container">
+            <h2>Memories</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="assets/placeholder1.jpg" alt="Memory 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/placeholder2.jpg" alt="Memory 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/placeholder3.jpg" alt="Memory 3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Countdown Section -->
+    <section class="countdown-section">
+        <div class="container">
+            <h2>Countdown to Next Birthday</h2>
+            <div class="countdown-timer">
+                <div class="timer-item">
+                    <span id="days">00</span>
+                    <span>Days</span>
+                </div>
+                <div class="timer-item">
+                    <span id="hours">00</span>
+                    <span>Hours</span>
+                </div>
+                <div class="timer-item">
+                    <span id="minutes">00</span>
+                    <span>Minutes</span>
+                </div>
+                <div class="timer-item">
+                    <span id="seconds">00</span>
+                    <span>Seconds</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Send Wish Button -->
+    <div class="wish-button-container">
+        <button id="sendWishBtn" class="wish-button">Send a Wish</button>
+    </div>
+
+    <!-- Wish Modal -->
+    <div id="wishModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Send Your Birthday Wish</h2>
+            <form id="wishForm">
+                <textarea placeholder="Write your birthday wish here..." required></textarea>
+                <button type="submit">Send Wish</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Fireworks Container -->
+    <div id="fireworks"></div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
